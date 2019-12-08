@@ -15,6 +15,12 @@ El script de provisión permite levantar una máquina virtual usando VirtualBox.
 
 ## Instalación
 
+```shell
+cd localenv
+```
+
+El directorio `localenv` contiene el archivo `Vagrantfile` que automatiza la provisión de una máquina virtual.
+
 Para iniciar la máquina virtual con __Hyper-V__ (iniciar en PowerShell como administrador):
 
 ```shell
@@ -35,12 +41,18 @@ cd /vagrant
 
 ## Uso
 
-Abrir la dirección: localhost:8080
+Abrir la dirección: http://localhost:8080
 
-## Limpieza
+## Limpieza de la Máquina Virtual
 
-Ejecutar:
+Para destruir completamente la máquina virtual, ejecutar:
 
 ```shell
 vagrant destroy
 ```
+
+Esto no destruye cualquier almacenamiento permanente que se haya montado a la máquina virtual.
+
+## Ejemplos
+
+Se provee un ejemplo de modelamiento simple basado en la emisión de un contrato [aquí](./MsaExample/README.MD)
