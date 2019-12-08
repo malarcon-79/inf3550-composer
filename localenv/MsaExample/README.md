@@ -4,7 +4,7 @@ El siguiente es un ejemplo para iniciar la construcción de una red Fabric simpl
 
 ## Prerequisitos
 
-Es necesario haber iniciado Hyperledger Composer, tal como se menciona en el archivo [README.md](../README.md) en la raíz de este repositorio.
+Es necesario haber iniciado Hyperledger Composer, tal como se menciona en el archivo [README.md](../../README.md) en la raíz de este repositorio.
 
 En caso de haber iniciado anteriormente la máquina virtual y no haberla suspendido correctamente mediante el comando `vagrant suspend`, se recomienda ejecutar (desde el contexto del archivo `Vagrantfile`):
 
