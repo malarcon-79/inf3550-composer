@@ -55,4 +55,4 @@ Esto no destruye cualquier almacenamiento permanente que se haya montado a la m�
 
 ## Ejemplos
 
-Se provee un ejemplo de modelamiento simple basado en la emisión de un contrato [aquí](localenv/MsaExample/README.MD)
+Se provee un ejemplo de modelamiento simple basado en la emisión de un contrato [aquí](localenv/MsaExample/README.md)
